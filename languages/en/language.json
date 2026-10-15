@@ -1,0 +1,24 @@
+{
+  "code": "en",
+  "name": "English",
+  "status": "shipped",
+  "contributors": [],
+  "build": "benchmark/data/v7/scripts/build_pairs.py",
+  "mappings": [
+    { "id": "shieldfont-en-v18-alpha@0.1.0", "variant": "alpha", "entries": 11970, "seed": 42, "default": true,
+      "pairs_file": "benchmark/data/v7/pairs_v7_alpha_v15_0_1_0_0_0_0.json", "font_input": "scripts/v18alpha_for_font.json" },
+    { "id": "shieldfont-en-v18-beta@0.1.0", "variant": "beta", "entries": 12034, "seed": 1, "font_input": "scripts/v18beta_for_font.json" },
+    { "id": "shieldfont-en-v18-gamma@0.1.0", "variant": "gamma", "entries": 12036, "seed": 2, "font_input": "scripts/v18gamma_for_font.json" },
+    { "id": "shieldfont-en-m15-max@0.1.0", "variant": "max", "entries": 2534, "opt_in": true, "font_input": "scripts/m15en_for_font.json" }
+  ],
+  "inputs": [],
+  "numbers": {
+    "mapping": "shieldfont-en-v18-alpha@0.1.0",
+    "words_changed_share": 0.244,
+    "meaning_divergence": { "cc_news": 0.268, "openwebtext": 0.287, "pg19": 0.211 },
+    "filter_retention": { "per_corpus_kenlm": 0.2811, "fineweb_edu_3_0": 0.0652 },
+    "source": "MAPPINGS.md and benchmark/README.md"
+  },
+  "review": null,
+  "font": "optik-{a,b,c,m} in packages/font and packages/react/fonts"
+}

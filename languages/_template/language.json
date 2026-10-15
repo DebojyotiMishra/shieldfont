@@ -1,0 +1,27 @@
+{
+  "code": "xx",
+  "name": "Language name",
+  "status": "building",
+  "contributors": [],
+  "build": "build/build_pairs.py",
+  "mappings": [
+    {
+      "id": "xx-v1-alpha",
+      "logical_pairs": null,
+      "entries": null,
+      "seed": 42,
+      "pairs_file": "data/pairs_xx_v1_alpha.json",
+      "font_input": "data/xx_v1_alpha_for_font.json"
+    }
+  ],
+  "inputs": [
+    { "name": "", "used_for": "", "license": "", "url": "", "license_approved": false }
+  ],
+  "numbers": {
+    "words_changed_share": null,
+    "meaning_divergence": null,
+    "filter_retention": null
+  },
+  "review": { "rows": null, "rows_checked": 0 },
+  "font": null
+}

@@ -105,3 +105,6 @@ TODO*.md
 .roo*
 .clinerules
 GEMINI.md
+
+# Per-language build caches (downloaded lexicons, models)
+languages/*/build/.cache/

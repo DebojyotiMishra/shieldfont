@@ -14,7 +14,8 @@ the few rules we actually enforce.
 
 - **Code**: generator improvements, new variants, tests, CI.
 - **Dictionaries**: new language mappings, better curation of existing
-  ones. Linguists especially welcome. See `ROADMAP.md`.
+  ones. Linguists especially welcome. See `languages/README.md` for how a
+  language is laid out and what it needs before it ships.
 - **Accessibility**: `<Shield>` hides protected regions from assistive
   tech, and `a11y={{ mode: "text" }}` now puts the real words beside them
   with nothing required from the author — sealed into the page at build

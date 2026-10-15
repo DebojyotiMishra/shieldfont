@@ -605,8 +605,9 @@ Open question: whether language dictionaries ship with the generator,
 or are fetched from a central registry. Central registry gives
 consistency across deployments; local dictionaries give independence.
 
-**Status:** unclaimed. `M15-MULTI` scaffolding exists but no language
-has been built. Portuguese is first and the founding team speaks it, so
+**Status:** French is in progress (issue #11, PR #12); `languages/README.md`
+describes how each language is laid out and what it needs before it ships.
+No other language has been built. Portuguese is first and the founding team speaks it, so
 that one is ours to lose; every other language needs a native linguist
 who wants to own it. This is the roadmap item most likely to move if
 one person volunteers.
